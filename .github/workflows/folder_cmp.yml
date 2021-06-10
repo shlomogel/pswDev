@@ -26,4 +26,4 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Test
       run: |
-        python q2.py -a folder_A -b folder_B
+        python q2.py -a folder_A -b folder_B -v
