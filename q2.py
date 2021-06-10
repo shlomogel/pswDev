@@ -103,3 +103,4 @@ if __name__ == '__main__':
     # folder_b = r'C:\Users\shlomog\Desktop\Shay\folder_B'
     if cmp_files(args.folder_a, args.folder_b, args.verbose):
         print('Failed')
+		exit(500)
